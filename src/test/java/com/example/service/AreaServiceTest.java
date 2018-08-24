@@ -18,6 +18,7 @@ public class AreaServiceTest {
     @Test
     public void getAreaList() {
         List<Area> areaList=areaService.getAreaList();
+
         //Assert.assertEquals(java.util.Optional.of(new Integer(7)),java.util.Optional.of (areaList.size()));
        //Assert.assertEquals(new Integer(7), java.util.Optional.ofNullable(areaList.size()));
         //Assert.assertEquals(java.util.Optional.of(new Integer(7)),areaList.size());
